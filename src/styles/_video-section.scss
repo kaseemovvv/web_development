@@ -1,0 +1,56 @@
+.video-section {
+    min-height: 100vh;
+    background-image: url(../assets/img/video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+    &-name {
+        @include TEXT_DECORATING(64px, 61.5px, 'SignPainter');
+        text-align: center;
+    }
+
+    &-subtitle {
+        @include TEXT_DECORATING(24px, 32px, 'Source Sans Pro');
+        text-align: center;
+        max-width: 524px;
+    }
+
+    &-center {
+        width: 163px;
+        height: 163px;
+        border-radius: 50%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-item {
+            color: #ef8767;
+            font-size: 70px;
+        }
+
+        &:hover {
+            background: #ef8767;
+
+            .video-section-center-item {
+                color: #fff;
+                transition: 0.4s ease-in-out;
+            }
+        }
+    }
+
+    .translate {
+        margin-left: 15px;
+    }
+
+    .middle {
+        display: flex;
+        justify-content: center;
+        margin: 33px 0 81px;
+    }
+}

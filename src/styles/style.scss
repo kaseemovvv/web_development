@@ -1,0 +1,26 @@
+@import 'kit/fonts';
+@import 'kit/function';
+@import 'kit/mixin';
+@import 'kit/variable';
+@import 'menu';
+@import 'menu.mobile';
+@import 'header';
+@import 'header.mobile';
+@import 'text-section';
+@import 'text-section.mobile';
+@import 'video-section';
+@import 'video-section.mobile';
+@import 'footer';
+@import 'footer.mobile';
+
+@keyframes logo_animation {
+    0% {
+        transform: rotateY(0deg) scale(0.9);
+    }
+    50% {
+        transform: rotateY(180deg) scale(1.2);
+    }
+    100% {
+        transform: rotateY(0deg) scale(0.9);
+    }
+}

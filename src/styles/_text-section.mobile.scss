@@ -1,0 +1,69 @@
+@media screen and (max-width: 730px) {
+    .text-section {
+        padding: 97px 0;
+
+        &-name {
+            font-size: 43px;
+            color: #4e494a;
+        }
+
+        &-subtitle {
+            color: #464547;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        &-articles {
+            display: block;
+            align-items: top;
+            justify-content: space-between;
+            margin-bottom: 73px;
+
+            &-item {
+                @include TEXT_DECORATING(16px, 22px, 'Source Sans Pro');
+                color: #171111;
+                width: 100%;
+                display: block;
+                margin: 15px 0;
+            }
+        }
+
+        &-btn {
+            @include TEXT_DECORATING(14px, 26px, 'Oswald');
+            letter-spacing: 1.4px;
+            border-radius: 18px;
+            background: #ef8767;
+            padding: 5px 17px;
+            border: 0;
+            display: block;
+            margin: 0 auto;
+            transition: 0.3s;
+            &:hover {
+                transform: rotate(10deg);
+                transform-origin: left;
+            }
+        }
+
+        .laptop-left {
+            display: none;
+        }
+
+        .laptop-right {
+            display: none;
+        }
+
+        .mobile-left {
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 160px;
+        }
+
+        .mobile-right {
+            position: absolute;
+            display: block;
+            right: 0;
+            bottom: -75px;
+        }
+    }
+}

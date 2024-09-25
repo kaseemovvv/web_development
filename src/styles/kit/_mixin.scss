@@ -1,0 +1,7 @@
+@mixin TEXT_DECORATING($SIZE, $HEIGHT, $FAMILY) {
+  color: #fff;
+  font-size: $SIZE;
+  line-height: $HEIGHT;
+  font-family: $FAMILY;
+  font-style: normal;
+}

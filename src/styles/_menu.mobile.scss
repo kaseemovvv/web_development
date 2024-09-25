@@ -1,0 +1,13 @@
+@media screen and (max-width: 730px) {
+    .nav-section {
+        &-links {
+            display: none;
+        }
+
+        &-menu {
+            &-line {
+                background: #fff;
+            }
+        }
+    }
+}

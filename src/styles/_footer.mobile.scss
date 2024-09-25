@@ -1,0 +1,24 @@
+@media screen and (max-width: 730px) {
+    footer {
+        display: block;
+        padding: 25px 0 29px;
+
+        .slice {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .w174 {
+            width: 240px;
+        }
+
+        .mobile {
+            display: block;
+        }
+
+        .laptop {
+            display: none;
+        }
+    }
+}

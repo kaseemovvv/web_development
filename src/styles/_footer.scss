@@ -1,0 +1,38 @@
+footer {
+    background: #ef8767;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    padding: 66px 0 51px;
+
+    .slice {
+        width: 250px;
+
+        .slice-text {
+            @include TEXT_DECORATING(16px, 19px, 'Source Sans Pro');
+            margin: 14px 0;
+        }
+
+        .slice-name {
+            @include TEXT_DECORATING(18px, 16px, 'Source Sans Pro');
+            font-weight: 700;
+            letter-spacing: 3.6px;
+            margin-top: 18px;
+        }
+    }
+
+    .w174 {
+        width: 174px;
+    }
+
+    .center {
+        text-align: center;
+        img {
+            animation: logo_animation 3s ease 2s infinite;
+        }
+    }
+
+    .mobile {
+        display: none;
+    }
+}

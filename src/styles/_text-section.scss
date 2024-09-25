@@ -1,0 +1,71 @@
+.text-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #ffe5e0;
+    position: relative;
+
+    &-name {
+        @include TEXT_DECORATING(60px, 61.5px, 'SignPainter');
+        color: #8a5a5a;
+        text-align: center;
+    }
+
+    &-subtitle {
+        @include TEXT_DECORATING(24px, 32px, 'Poppins');
+        color: #40403f;
+        text-align: center;
+        margin: 86px 0 56px;
+    }
+
+    &-articles {
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        margin-bottom: 73px;
+
+        &-item {
+            @include TEXT_DECORATING(16px, 22px, 'Source Sans Pro');
+            color: #171111;
+            width: 48%;
+            font-family: 'Source Sans Pro';
+        }
+    }
+
+    &-btn {
+        @include TEXT_DECORATING(14px, 26px, 'Oswald');
+        letter-spacing: 1.4px;
+        border-radius: 18px;
+        background: #ef8767;
+        padding: 5px 17px;
+        border: 0;
+        display: block;
+        margin: 0 auto;
+        transition: 0.3s;
+        &:hover {
+            transform: rotate(10deg);
+            transform-origin: left;
+        }
+    }
+
+    .laptop-left {
+        position: absolute;
+        left: 0;
+    }
+
+    .laptop-right {
+        position: absolute;
+        right: 0;
+        top: 200px;
+    }
+
+    .mobile-left {
+        position: absolute;
+        display: none;
+    }
+
+    .mobile-right {
+        position: absolute;
+        display: none;
+    }
+}

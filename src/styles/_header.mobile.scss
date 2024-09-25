@@ -1,0 +1,50 @@
+@media screen and (max-width: 730px) {
+    .header-section {
+        background: #ef8767;
+        background-blend-mode: soft-light, normal;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &-circle {
+            width: 400px;
+            height: 400px;
+            background: inherit;
+            box-shadow: none;
+
+            &-img-laptop {
+                display: none;
+            }
+
+            &-img-mobile {
+                display: block;
+                margin: 0 auto;
+            }
+
+            &-name {
+                color: #fff;
+            }
+        }
+
+        &-subtitle {
+            color: #fff;
+        }
+
+        .img-left {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            display: block;
+        }
+
+        .img-right {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 730px) {
+    .video-section {
+        &-name {
+            font-size: 60px;
+        }
+
+        &-center {
+            width: 143px;
+            height: 143px;
+        }
+    }
+}
